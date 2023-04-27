@@ -1,0 +1,1254 @@
+@font-face {
+    font-family: myfont;
+    src: url(Font/Pique.ttf);
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.back {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(to right bottom, #00b0ff, #00a6fb, #009cf7, #0092f2, #0587ed, #0e85ec, #1584ec, #1a82eb, #1389f0, #0b90f5, #0497fa, #009eff);
+    position: absolute;
+    display: grid;
+    overflow: hidden;
+    opacity: 0;
+    animation: or 1s ease 4s, no 204.8s ease 5s, o 1s ease 209.8s forwards;
+}
+
+.vc {
+    display: grid;
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+}
+
+.va {
+    position: absolute;
+    justify-self: center;
+    align-self: center;
+    z-index: 3;
+    height: 20rem;
+    opacity: 0;
+}
+
+.bb {
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    display: grid;
+}
+
+.bn {
+    position: absolute;
+    z-index: 3;
+    width: 20rem;
+    height: 6rem;
+    background-color: red;
+    color: yellow;
+    border: 0.2rem solid red;
+    border-radius: 3rem;
+    justify-self: center;
+    align-self: center;
+    animation: o 1s ease 3s forwards;
+}
+
+.bn:focus {
+    background-color: blue;
+    color: yellow;
+    border-color: blue;
+}
+
+.bnn {
+    position: absolute;
+    margin-top: -30rem;
+    font-size: 2.7rem;
+    color: blue;
+    justify-self: center;
+    align-self: center;
+    animation: o 1s ease 3s forwards;
+}
+
+.sn {
+    position: absolute;
+    z-index: 3;
+    font-size: 3.5rem;
+    justify-self: center;
+    margin-top: 3rem;
+    color: rgb(255, 255, 255);
+    opacity: 0;
+    animation: or 1s ease 5s, no 203.8s ease 6s, o 1s ease 209.8s forwards;
+}
+
+.te {
+    font-size: 4rem;
+    justify-self: center;
+    color: blue;
+    position: absolute;
+    margin-top: 17rem;
+    opacity: 0;
+    animation: or 1.5s ease 210.8s, o 1s ease 212.3s;
+}
+
+.ts {
+    margin-top: 13rem;
+}
+
+.wg {
+    margin-top: 20.8rem;
+}
+
+.tbc {
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    display: grid;
+    z-index: 3;
+    opacity: 0;
+    animation: or 1s ease 5s, no 203.8s ease 6s, o 1s ease 209.8s forwards;
+}
+
+.pfcs {
+    position: absolute;
+    border: 0.4rem solid rgb(51, 51, 51);
+    width: 4rem;
+    height: 4rem;
+    justify-self: center;
+    z-index: 3;
+    border-top: transparent;
+    border-bottom: transparent;
+    margin-top: 32rem;
+}
+
+.pbc {
+    border-right: transparent;
+    margin-left: -12rem;
+}
+
+.fbc {
+    border-left: transparent;
+    margin-left: 12rem;
+}
+
+.pfbs {
+    width: 0;
+    border-top: 2rem solid transparent;
+    border-bottom: 2rem solid transparent;
+    position: absolute;
+    z-index: 3;
+}
+
+.pb {
+    border-right: 3rem solid rgb(51, 51, 51);
+}
+
+.fb {
+    border-left: 3rem solid rgb(51, 51, 51);
+    margin-left: 1rem;
+}
+
+.papbc {
+    justify-self: center;
+    margin-left: -4.1rem;
+    margin-top: 32rem;
+}
+
+.papb {
+    position: absolute;
+    width: 4.5rem;
+    height: 4.5rem;
+    border-radius: 50%;
+    border: 0.2rem solid red;
+    background-color: red;
+    z-index: 3;
+    margin-left: -0.1rem;
+}
+
+.papb:focus {
+    background-color: blue;
+    border: 0.2rem solid blue;
+}
+
+.papbs {
+    width: 0.5rem;
+    height: 2.2rem;
+    background-color: yellow;
+    position: absolute;
+    margin-top: -1rem;
+}
+
+.papb1 {
+    margin-left: 0.5rem;
+}
+
+.papb2 {
+    margin-left: 1.8rem;
+}
+
+.imgc {
+    width: 33rem;
+    height: 20rem;
+    position: absolute;
+    justify-self: center;
+    display: grid;
+    border: 0.3rem solid rgb(255, 255, 255);
+    border-radius: 3rem;
+    overflow: hidden;
+    opacity: 0;
+    margin-top: 9rem;
+    animation: or 1s ease 5s forwards;
+}
+
+.img {
+    height: inherit;
+    width: inherit;
+    position: absolute;
+}
+
+.c {
+    display: grid;
+}
+
+.t {
+    position: absolute;
+    font-family: myfont;
+    font-size: 2.4rem;
+    color: rgb(0, 47, 255);
+    -webkit-text-stroke-width: 0.09rem;
+    -webkit-text-stroke-color: white;
+    text-transform: lowercase;
+    justify-self: center;
+    align-self: center;
+    text-shadow: 0rem 0rem 0.2rem white, 0rem 0rem 0.3rem rgb(0, 47, 255);
+}
+
+.s {
+    width: max-content;
+    margin-top: -24rem;
+}
+
+.t1 {
+    width: max-content;
+    margin-top: 6rem;
+    margin-left: -62rem;
+}
+
+.t2 {
+    width: max-content;
+    margin-top: 10rem;
+    margin-left: 62rem;
+}
+
+.tt {
+    width: max-content;
+    margin-left: 2rem;
+    margin-top: 24rem;
+}
+
+.mitw-1 {
+    animation: d 1.4s ease 15.2s;
+}
+
+.ys-2 {
+    animation: r 2.9s ease 16.4s;
+}
+
+.mn-3 {
+    animation: l 1.7s ease 17.4s;
+}
+
+.mitw-4 {
+    animation: d 1.2s ease 20.9s;
+}
+
+.yp-5 {
+    animation: r 2.9s ease 22.1s;
+}
+
+.yg-6 {
+    animation: l 1.6s ease 23.2s;
+}
+
+.bis-7 {
+    animation: s7 1.6s ease 25.2s, s7-5 0.7s ease 26.8s forwards;
+}
+
+.g-8 {
+    animation: s8 0.4s ease 26.4s, s8-5 0.7s ease 26.8s forwards;
+}
+
+.inka-9 {
+    animation: r 2.1s ease 27.2s;
+}
+
+.inka-9-5 {
+    animation: l 1.3s ease 27.9s;
+}
+
+.ly-10 {
+    animation: d 1.3s ease 29.2s;
+}
+
+.bis-11 {
+    animation: s7 1.6s ease 31s, s7-5 0.7s ease 32.6s forwards;
+}
+
+.g-12 {
+    animation: s8 0.4s ease 32.2s, s8-5 0.7s ease 32.6s forwards;
+}
+
+.in-13 {
+    animation: r 2.1s ease 33s;
+}
+
+.don-14 {
+    animation: l 1.3s ease 33.7s;
+}
+
+.ly-15 {
+    animation: d 1.3s ease 35s;
+}
+
+.aiho-16 {
+    animation: d 1s ease 37s forwards;
+}
+
+.aiho-16-5 {
+    animation: r 2.1s ease 38s forwards;
+}
+
+.altc-17 {
+    animation: l 1.5s ease 38.5s forwards;
+}
+
+.oia-18 {
+    animation: s18 0.9s ease 39.9s forwards;
+}
+
+.l-19 {
+    animation: s19 1.3s ease 40.8s, s19-5 0.7s ease 42.1s;
+}
+
+.aips-20 {
+    animation: d 0.8s ease 43s forwards;
+}
+
+.aips-20-5 {
+    animation: r 2.1s ease 43.8s forwards;
+}
+
+.tyat-21 {
+    animation: l 1.5s ease 44.3s forwards;
+}
+
+.lom-22 {
+    animation: s21 0.9s ease 45.7s forwards;
+}
+
+.lom-22-5 {
+    animation: s22 1s ease 46.6s, s22-5 0.3s ease 47.6s;
+}
+
+.ciia-23 {
+    animation: s23 0.9s ease 48.1s;
+}
+
+.ciia-23-5 {
+    animation: s24 1s ease 49s, s24-5 0.5s cubic-bezier(0.6, 0, 0.735, 0.045) 50s;
+}
+
+.d-25 {
+    animation: s25 0.4s ease-in 50.5s, s25-5 1s ease 50.9s forwards;
+}
+
+.woe-26 {
+    animation: d 1.7s ease 51.9s forwards;
+}
+
+.tyb-27 {
+    animation: s27 1.4s ease 53.6s;
+}
+
+.m-28 {
+    animation: s28 4.5s ease 55s;
+}
+
+.a-29 {
+    animation: s29 1.1s ease 59.5s;
+}
+
+.isf-30 {
+    animation: r 2.8s ease 60.3s;
+}
+
+.iy-31 {
+    animation: l 1.5s ease 61.5s;
+}
+
+.if-33 {
+    animation: s7 1s ease 62.9s, s7-5 0.7s ease 63.8s forwards;
+}
+
+.if-33-4 {
+    animation: s8 0.4s ease 63.4s, s8-5 0.7s ease 63.8s forwards;
+}
+
+.if-33-5 {
+    animation: d 1s ease 64.3s;
+}
+
+.sys-34 {
+    animation: s34 1.3s ease 64.9s;
+}
+
+.s-35 {
+    animation: s35 4.5s ease 66.2s;
+}
+
+.wod-36 {
+    animation: s36 0.9s ease 70.7s;
+}
+
+.d-37 {
+    animation: s25 0.4s ease 71.6s, s25-5 0.2s ease 72s forwards;
+}
+
+.aott-37 {
+    animation: d 1.2s ease 72.2s forwards;
+}
+
+.ptg-38 {
+    animation: r 2.1s ease 73.4s forwards;
+}
+
+.todyb-39 {
+    animation: l 1.3s ease 74.1s forwards;
+}
+
+.todyb-39-5 {
+    animation: d 0.6s ease 75.4s forwards;
+}
+
+.m-40 {
+    animation: s34 0.6s ease 75.8s;
+}
+
+.wod-41 {
+    animation: s36 0.8s ease 76.4s;
+}
+
+.wod-41-5 {
+    animation: s25 0.4s ease 77.2s, s25-5 0.2s ease 77.6s forwards;
+}
+
+.aott-42 {
+    animation: s42 1s ease 77.8s, s42-5 1s ease 78.8s forwards;
+}
+
+.aott-42-5 {
+    animation: s42-6 1s ease 79.8s, s42-7 1.2s ease 80.8s forwards;
+}
+
+.itt-43 {
+    animation: r 2.3s ease 82.6s;
+}
+
+.yto-44 {
+    animation: l 1.5s ease 83.3s;
+}
+
+.fm-45 {
+    animation: d 1.7s ease 84.7s;
+}
+
+.cig-46 {
+    animation: r 2.3s ease 87.9s;
+}
+
+.shtb-47 {
+    animation: l 1.5s ease 88.6s;
+}
+
+.shtb-47-5 {
+    animation: d 1.7s ease 90s;
+}
+
+.wyl-48 {
+    animation: d 0.9s ease 92.5s;
+}
+
+.am-49 {
+    animation: d 1s ease 93.4s;
+}
+
+.infsa-50 {
+    animation: s7 2.8s ease 94.5s, s7-5 0.7s ease 97.3s forwards;
+}
+
+.af-51 {
+    animation: s8 1.7s ease 95.6s, s8-5 0.7s ease 97.3s forwards;
+}
+
+.wyl-52 {
+    animation: d 0.9s ease 98.1s;
+}
+
+.am-53 {
+    animation: d 1s ease 99s;
+}
+
+.infs-54 {
+    animation: s7 2.8s ease 100.1s, s7-5 0.7s ease 102.9s forwards;
+}
+
+.h-55 {
+    animation: s8 1.5s ease 101.4s, s8-5 0.7s ease 102.9s forwards;
+}
+
+.aiho-56 {
+    animation: d 1s ease 104.3s forwards;
+}
+
+.aiho-57 {
+    animation: r 2.1s ease 105.3s forwards;
+}
+
+.altc-58 {
+    animation: l 1.5s ease 105.8s forwards;
+}
+
+.oia-59 {
+    animation: s18 0.9s ease 107.2s forwards;
+}
+
+.l-60 {
+    animation: s19 1.3s ease 108.1s, s19-5 0.7s ease 109.4s;
+}
+
+.aips-61 {
+    animation: d 1s ease 110.1s forwards;
+}
+
+.aips-62 {
+    animation: r 2.1s ease 111.1s forwards;
+}
+
+.tyat-63 {
+    animation: l 1.5s ease 111.6s forwards;
+}
+
+.lom-64 {
+    animation: s21 0.9s ease 113s forwards;
+}
+
+.lom-65 {
+    animation: s22 1s ease 113.9s, s22-5 0.3s ease 114.9s;
+}
+
+.ciia-66 {
+    animation: s23 0.9s ease 115.4s;
+}
+
+.ciia-67 {
+    animation: s24 1s ease 116.3s, s24-5 0.5s cubic-bezier(0.6, 0, 0.735, 0.045) 117.3s;
+}
+
+.d-68 {
+    animation: s25 0.4s ease-in 117.8s, s25-5 1s ease 118.2s forwards;
+}
+
+.woe-69 {
+    animation: d 1.7s ease 119.2s forwards;
+}
+
+.tyb-70 {
+    animation: s27 1.4s ease 120.9s;
+}
+
+.m-71 {
+    animation: s28 4.5s ease 122.3s;
+}
+
+.a-72 {
+    animation: s29 1.1s ease 126.8s;
+}
+
+.isf-73 {
+    animation: r 2.8s ease 127.6s;
+}
+
+.iy-74 {
+    animation: l 1.5s ease 128.8s;
+}
+
+.if-75 {
+    animation: s7 1s ease 130.2s, s7-5 0.7s ease 131.1s forwards;
+}
+
+.if-76 {
+    animation: s8 0.4s ease 130.7s, s8-5 0.7s ease 131.1s forwards;
+}
+
+.if-77 {
+    animation: d 1s ease 131.6s;
+}
+
+.sys-78 {
+    animation: s34 1.3s ease 132.2s;
+}
+
+.s-79 {
+    animation: s35 4.5s ease 133.5s;
+}
+
+.wod-80 {
+    animation: s36 0.9s ease 138s;
+}
+
+.d-81 {
+    animation: s25 0.4s ease 138.9s, s25-5 0.2s ease 139.3s forwards;
+}
+
+.aott-82 {
+    animation: d 1.2s ease 139.5s forwards;
+}
+
+.ptg-83 {
+    animation: r 2.1s ease 140.7s forwards;
+}
+
+.todyb-84 {
+    animation: l 1.3s ease 141.4s forwards;
+}
+
+.todyb-85 {
+    animation: d 0.6s ease 142.7s forwards;
+}
+
+.m-86 {
+    animation: s34 0.6s ease 143.1s;
+}
+
+.wod-87 {
+    animation: s36 0.8s ease 143.7s;
+}
+
+.wod-88 {
+    animation: s25 0.4s ease 144.5s, s25-5 0.2s ease 144.9s forwards;
+}
+
+.aott-89 {
+    animation: s42 1s ease 145.1s, s42-5 1s ease 146.1s forwards;
+}
+
+.aott-90 {
+    animation: s42-6 1s ease 147.1s, s42-7 1.2s ease 148.1s forwards;
+}
+
+.dit-91 {
+    animation: l 1.1s ease 149.7s;
+}
+
+.wyg-92 {
+    animation: l 1.3s ease 150.8s;
+}
+
+.wyl-93 {
+    animation: r 1.4s ease 152.1s;
+}
+
+.mdk-94 {
+    animation: r 1.3s ease 153.5s;
+}
+
+.dit-95 {
+    animation: l 1.1s ease 155.3s;
+}
+
+.wyg-96 {
+    animation: l 1.3s ease 156.4s;
+}
+
+.wyl-97 {
+    animation: r 1.4s ease 157.7s;
+}
+
+.mdk-98 {
+    animation: s98 1.4s ease 159.1s forwards, s98-5 1.3s ease 160.5s forwards, s98-6 0.3s ease 161.8s forwards;
+}
+
+.t-99 {
+    animation: s99 0.4s ease 159.1s forwards, s99-5 1.3s ease 160.5s forwards, s99-6 0.3s ease 161.8s forwards;
+}
+
+.ciia-100 {
+    animation: s100 0.5s ease 162.2s, s24 0.5s ease 162.7s, s24-5 0.5s cubic-bezier(0.6, 0, 0.735, 0.045) 163.2s;
+}
+
+.d-101 {
+    animation: s25 0.4s ease-in 163.7s, s25-5 1s ease 164.1s forwards;
+}
+
+.woe-102 {
+    animation: d 1.7s ease 165.1s forwards;
+}
+
+.tyb-103 {
+    animation: s27 1.4s ease 166.8s;
+}
+
+.m-104 {
+    animation: s28 4.5s ease 168.2s;
+}
+
+.a-105 {
+    animation: s29 1.1s ease 172.7s;
+}
+
+.isf-106 {
+    animation: r 2.8s ease 173.5s;
+}
+
+.iy-107 {
+    animation: l 1.5s ease 174.7s;
+}
+
+.if-108 {
+    animation: s7 1s ease 176.1s, s7-5 0.7s ease 177s forwards;
+}
+
+.if-109 {
+    animation: s8 0.4s ease 176.6s, s8-5 0.7s ease 177s forwards;
+}
+
+.if-110 {
+    animation: d 1s ease 177.5s;
+}
+
+.sys-111 {
+    animation: s34 1.3s ease 178.1s;
+}
+
+.s-112 {
+    animation: s35 4.5s ease 179.4s;
+}
+
+.wod-113 {
+    animation: s36 0.9s ease 183.9s;
+}
+
+.d-114 {
+    animation: s25 0.4s ease 184.8s, s25-5 0.2s ease 185.2s forwards;
+}
+
+.aott-115 {
+    animation: d 1.2s ease 185.4s forwards;
+}
+
+.ptg-116 {
+    animation: r 2.1s ease 186.6s forwards;
+}
+
+.todyb-117 {
+    animation: l 1.3s ease 187.3s forwards;
+}
+
+.todyb-118 {
+    animation: d 0.6s ease 188.6s forwards;
+}
+
+.m-119 {
+    animation: s34 0.6s ease 189s;
+}
+
+.wod-120 {
+    animation: s36 0.8s ease 189.6s;
+}
+
+.wod-121 {
+    animation: s25 0.4s ease 190.4s, s25-5 0.2s ease 190.8s forwards;
+}
+
+.aott-122 {
+    animation: s42 1s ease 191s, s42-5 1s ease 192s forwards;
+}
+
+.aott-123 {
+    animation: s42-6 1s ease 193s, s42-7 1.2s ease 194s forwards;
+}
+
+.ciia-124 {
+    animation: s100 0.5s ease 195.8s, s24 0.5s ease 196.3s, s24-5 0.5s cubic-bezier(0.6, 0, 0.735, 0.045) 196.8s;
+}
+
+.d-125 {
+    animation: s25 0.4s ease-in 197.3s, s25-5 1s ease 197.7s forwards;
+}
+
+.woe-126 {
+    animation: d 1.7s ease 198.7s forwards;
+}
+
+.tyb-127 {
+    animation: s27 1.4s ease 200.4s;
+}
+
+.m-128 {
+    animation: s28 4.5s ease 201.8s, s128 1s ease 206.3s forwards;
+}
+
+@keyframes l {
+    0% {
+        margin-left: 62rem;
+    }
+    24% {
+        margin-left: -1.5rem;
+    }
+    85% {
+        margin-left: 1.5rem;
+    }
+    100% {
+        margin-left: -62rem;
+    }
+}
+
+@keyframes r {
+    0% {
+        margin-left: -62rem;
+    }
+    24% {
+        margin-left: 1.5rem;
+    }
+    85% {
+        margin-left: -1.5rem;
+    }
+    100% {
+        margin-left: 62rem;
+    }
+}
+
+@keyframes d {
+    0% {
+        margin-top: 24rem;
+    }
+    10% {
+        margin-top: 8rem;
+    }
+    40% {
+        margin-top: 9rem;
+    }
+    70% {
+        margin-top: 8rem;
+    }
+    100% {
+        margin-top: 24rem;
+    }
+}
+
+@keyframes o {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes or {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes no {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes s7 {
+    0% {
+        margin-top: -24rem;
+    }
+    20% {
+        margin-top: 7rem;
+    }
+    100% {
+        margin-top: 5rem;
+    }
+}
+
+@keyframes s7-5 {
+    0% {
+        margin-top: 5rem;
+    }
+    100% {
+        margin-top: 24rem;
+    }
+}
+
+@keyframes s8 {
+    0% {
+        margin-top: 7rem;
+        font-size: 2rem;
+    }
+    100% {
+        margin-top: 8rem;
+        font-size: 2.4rem;
+    }
+}
+
+@keyframes s8-5 {
+    0% {
+        margin-top: 8rem;
+    }
+    100% {
+        margin-top: 27rem;
+    }
+}
+
+@keyframes s18 {
+    0% {
+        margin-top: 5rem;
+        font-size: 2rem;
+    }
+    20% {
+        margin-top: 6rem;
+        font-size: 2.4rem;
+        transform: rotateY(0deg);
+    }
+    100% {
+        margin-top: 6rem;
+        transform: rotateY(90deg);
+    }
+}
+
+@keyframes s19 {
+    0% {
+        margin-top: 6rem;
+        transform: rotateY(-90deg);
+    }
+    100% {
+        margin-top: 6rem;
+        transform: rotateY(0deg);
+    }
+}
+
+@keyframes s19-5 {
+    0% {
+        margin-top: 6rem;
+    }
+    100% {
+        margin-top: 24rem;
+    }
+}
+
+@keyframes s21 {
+    0% {
+        margin-top: 5rem;
+        font-size: 2rem;
+    }
+    20% {
+        margin-top: 6rem;
+        font-size: 2.4rem;
+        transform: rotateY(0deg);
+    }
+    100% {
+        margin-top: 6rem;
+        transform: rotateY(-90deg);
+    }
+}
+
+@keyframes s22 {
+    0% {
+        margin-top: 6rem;
+        transform: rotateY(90deg);
+    }
+    100% {
+        margin-top: 6rem;
+        transform: rotateY(0deg);
+    }
+}
+
+@keyframes s22-5 {
+    0% {
+        margin-top: 6rem;
+    }
+    100% {
+        margin-top: 24rem;
+    }
+}
+
+@keyframes s23 {
+    0% {
+        margin-top: -24rem;
+    }
+    20% {
+        margin-top: 11rem;
+    }
+    100% {
+        margin-top: 9rem;
+    }
+}
+
+@keyframes s24 {
+    0% {
+        margin-top: 9rem;
+    }
+    20% {
+        margin-top: 8.5rem;
+    }
+    100% {
+        margin-top: 9rem;
+    }
+}
+
+@keyframes s24-5 {
+    0% {
+        margin-top: 9rem;
+        letter-spacing: 0rem;
+    }
+    100% {
+        margin-top: 6rem;
+        letter-spacing: -0.4rem;
+    }
+}
+
+@keyframes s25 {
+    0% {
+        margin-top: 6rem;
+    }
+    100% {
+        margin-top: 6rem;
+    }
+}
+
+@keyframes s25-5 {
+    0% {
+        margin-top: 6rem;
+    }
+    100% {
+        margin-top: 24rem;
+    }
+}
+
+@keyframes s27 {
+    0% {
+        margin-top: 24rem;
+    }
+    100% {
+        margin-top: 7rem;
+    }
+}
+
+@keyframes s28 {
+    0% {
+        margin-top: 7rem;
+        font-size: 2.4rem;
+    }
+    50% {
+        margin-top: 7rem;
+        font-size: 1.5rem;
+    }
+    100% {
+        margin-top: 7rem;
+        font-size: 2.4rem;
+    }
+}
+
+@keyframes s29 {
+    0% {
+        margin-top: 7rem;
+    }
+    30% {
+        margin-top: 7rem;
+    }
+    100% {
+        margin-top: 24rem;
+    }
+}
+
+@keyframes s34 {
+    0% {
+        margin-top: 24rem;
+    }
+    100% {
+        margin-top: 10rem;
+    }
+}
+
+@keyframes s35 {
+    0% {
+        margin-top: 10rem;
+        font-size: 2.4rem;
+    }
+    50% {
+        margin-top: 10rem;
+        font-size: 1.5rem;
+    }
+    100% {
+        margin-top: 10rem;
+        font-size: 2.4rem;
+    }
+}
+
+@keyframes s36 {
+    0% {
+        margin-top: 10rem;
+    }
+    30% {
+        margin-top: 9rem;
+    }
+    80% {
+        margin-top: 10rem;
+        letter-spacing: 0rem;
+    }
+    100% {
+        margin-top: 6rem;
+        letter-spacing: -0.4rem;
+    }
+}
+
+@keyframes s42-6 {
+    0% {
+        margin-top: 6rem;
+        transform: rotateY(-90deg);
+    }
+    100% {
+        margin-top: 6rem;
+        transform: rotateY(0deg);
+    }
+}
+
+@keyframes s42 {
+    0% {
+        margin-top: 24rem;
+    }
+    100% {
+        margin-top: 6rem;
+    }
+}
+
+@keyframes s42-5 {
+    0% {
+        margin-top: 6rem;
+        transform: rotateY(0deg);
+    }
+    100% {
+        margin-top: 6rem;
+        transform: rotateY(90deg);
+    }
+}
+
+@keyframes s42-7 {
+    0% {
+        margin-top: 6rem;
+    }
+    100% {
+        margin-top: 24rem;
+    }
+}
+
+@keyframes s98 {
+    0% {
+        margin-left: -62rem;
+    }
+    24% {
+        margin-left: 1.5rem;
+    }
+    70% {
+        margin-left: -1.5rem;
+    }
+    100% {
+        margin-left: 14.5rem;
+    }
+}
+
+@keyframes s98-5 {
+    0% {
+        margin-left: 14.5rem;
+    }
+    100% {
+        margin-left: -4rem;
+    }
+}
+
+@keyframes s98-6 {
+    0% {
+        margin-left: -4rem;
+    }
+    100% {
+        margin-left: 52rem;
+    }
+}
+
+@keyframes s99 {
+    0% {
+        margin-top: 6rem;
+        margin-left: 62rem;
+    }
+    100% {
+        margin-top: 6rem;
+        margin-left: 37.5rem;
+    }
+}
+
+@keyframes s99-5 {
+    0% {
+        margin-top: 6rem;
+        margin-left: 37.5rem;
+    }
+    100% {
+        margin-top: 6rem;
+        margin-left: 19rem;
+    }
+}
+
+@keyframes s99-6 {
+    0% {
+        margin-left: 19rem;
+    }
+    100% {
+        margin-left: 75rem;
+    }
+}
+
+@keyframes s100 {
+    0% {
+        margin-top: 24rem;
+    }
+    100% {
+        margin-top: 9rem;
+    }
+}
+
+@keyframes s128 {
+    0% {
+        margin-top: 7rem;
+    }
+    100% {
+        margin-top: 24rem;
+    }
+}
+
+@media (max-width: 500px) {
+    html {
+        font-size: 55%;
+    }
+}
+
+
+/*# sourceMappingURL=Whenever Wherever.css.map */
